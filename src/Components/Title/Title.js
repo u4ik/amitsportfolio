@@ -55,7 +55,7 @@ const Title = () => {
             </animated.div>
 
             <animated.div style={fade} className='titleNameWrap'>
-                <h1 style={{}} className='titleName'>Amit Mangat</h1>
+                <h1 style={{zIndex: 2}} className='titleName'>Amit Mangat</h1>
             </animated.div>
             <animated.div style={fade1} className='titleDescWrap'>
                 <h5 className='titleDesc' style={{ opacity: '.7' }}>Web Developer/Creative Designer</h5>

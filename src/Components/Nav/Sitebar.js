@@ -70,7 +70,7 @@ const Sitebar = () => {
 
     return (
 
-        <Navbar bg="" expand="lg" style={{ backgroundColor: 'rgba(32, 32, 32, .2)', color: 'white', width: '100vw' }}>
+        <Navbar bg="" expand="lg" style={{  color: 'white', width: '100vw' }}>
 
             <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', width: '100vw' }}>
 
