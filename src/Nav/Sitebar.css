@@ -1,0 +1,13 @@
+.nav-link {
+    color: white !important;
+    opacity: .5;
+}
+
+.nav-link:hover {
+    color: white !important;
+    opacity: 1;
+}
+
+.navbar-brand {
+    color: white !important;
+}
