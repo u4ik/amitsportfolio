@@ -50,6 +50,7 @@ body {
     height: 100%;
     overflow: hidden;
     position: relative;
+    z-index: 2;
 }
 
 .rain {
@@ -59,6 +60,7 @@ body {
     position: absolute;
     width: 1px;
     opacity: .02;
+    z-index: 1;
 }
 
 $rain: 150;
