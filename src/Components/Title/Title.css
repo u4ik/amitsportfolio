@@ -1,0 +1,14 @@
+.titleWrap {
+    color: 'white' !important;
+    padding-top: 24vh
+}
+
+.titleName {
+    font-family: 'Pinyon', sans-serif !important;
+    font-size: 6rem;
+    text-shadow: .5rem .5rem .5rem black;
+}
+
+.titleDesc {
+    text-shadow: .5rem .5rem .5rem black;
+}

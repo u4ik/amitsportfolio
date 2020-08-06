@@ -13,7 +13,7 @@ const Sitebar = () => {
         <Navbar bg="" expand="lg" style={{ backgroundColor: 'rgba(32, 32, 32, .2)', color: 'white', width: '100vw' }}>
             <div style={{display:'flex', flexDirection:'row', justifyContent:'center', width:'100vw'}}>
                 <div style={{display:'flex', flexDirection:'column'}}>
-                    <Navbar.Brand style={{marginBottom:'5%'}} href="/home">Amit Mangat's Portfolio</Navbar.Brand>
+                    <Navbar.Brand style={{marginBottom:'5%'}} href="/home"></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav style={{ }} className="mr-auto">
