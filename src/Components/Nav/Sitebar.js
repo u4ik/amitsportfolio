@@ -70,11 +70,11 @@ const Sitebar = () => {
 
     return (
 
-        <Navbar bg="" expand="lg" style={{  color: 'white', width: '100vw' }}>
+        <Navbar bg="" expand="lg" style={{  color: 'white', width: '100vw',background:'rgba(0,0,0,.5)' }}>
 
             <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', width: '100vw' }}>
 
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <div style={{ zIndex:10,display: 'flex', flexDirection: 'column' }}>
                     <animated.div style={fadeWrap}>
                     <Navbar.Brand style={{ marginBottom: '5%' }} href="/home"></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -82,7 +82,7 @@ const Sitebar = () => {
                         <Nav style={{}} className="mr-auto">
 
                             <animated.div style={fade1}>
-                                <Link className="nav-link" to="/home">Home</Link>
+                                <Link className="nav-link" to="/">Home</Link>
                             </animated.div>
 
                             <animated.div style={fade2}>
