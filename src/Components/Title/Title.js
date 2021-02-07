@@ -67,7 +67,7 @@ const Title = () => {
 
 
                 <animated.div style={fade3} className='titleNameWrap'>
-                    <img style={{ width: '15%', opacity: '.2', marginBottom: '',filter:'drop-shadow(5px 5px 5px black)' }} draggable='false' src={Flower} className='titleImg'></img>
+                    <img style={{ width: '15%', opacity: '.2', marginBottom: '', filter: 'drop-shadow(5px 5px 5px black)' }} draggable='false' src={Flower} className='titleImg'></img>
                 </animated.div>
 
                 <animated.div style={fade} className='titleNameWrap'>
@@ -76,7 +76,7 @@ const Title = () => {
                 </animated.div>
                 <animated.div style={fade1} className='titleDescWrap'>
                     <div style={{ display: 'flex', flexDirection: 'column' }}>
-
+                     
                         <Scramble
                             style={{ opacity: '.7' }}
                             className='titleDesc'
@@ -96,17 +96,18 @@ const Title = () => {
                                 },
                             ]}
                         />
-                        <div>
+                           <h5 style={{opacity:'.7',marginTop:'1%',marginBottom:'-1%'}} className='titleDesc'>"Creativity is intelligence having fun"</h5>
+                        <div style={{marginBottom:'-1%'}}>
 
-                            <img className='icons' style={{ width: '10%', opacity: '.5', marginBottom: '' ,filter:'drop-shadow(5px 5px 5px black)'}} draggable='false' src={ScriptIcons} className='titleImg'></img>
+                            <img className='icons' style={{ width: '10%', opacity: '.5', marginBottom: '', filter: 'drop-shadow(5px 5px 5px black)' }} draggable='false' src={ScriptIcons} className='titleImg'></img>
                         </div>
-                        <div style={{display:'flex',flexDirection:'row',justifyContent:'center'}}>
-                            <div style={{width:'5%'}}>
-                                <img className='icons' style={{ width: '100%', opacity: '.5', marginBottom: '',filter:'drop-shadow(5px 5px 5px black)' }} draggable='false' src={ReactIcon} className='titleImg'></img>
+                        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
+                            <div style={{ width: '5%' }}>
+                                <img className='icons' style={{ width: '100%', opacity: '.5', marginBottom: '', filter: 'drop-shadow(5px 5px 5px black)' }} draggable='false' src={ReactIcon} className='titleImg'></img>
                             </div>
-                            <div style={{width:'3.5%'}}>
+                            <div style={{ width: '3.5%' }}>
 
-                                <img className='icons' style={{ width: '100%', opacity: '.5', marginBottom: '',filter:'drop-shadow(5px 5px 5px black)' }} draggable='false' src={Nodejs} className='titleImg'></img>
+                                <img className='icons' style={{ width: '100%', opacity: '.5', marginBottom: '', filter: 'drop-shadow(5px 5px 5px black)' }} draggable='false' src={Nodejs} className='titleImg'></img>
                             </div>
                         </div>
                     </div>
