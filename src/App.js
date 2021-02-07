@@ -12,6 +12,8 @@ import Title from './Components/Title/Title'
 //Import Footer
 import Footer from './Components/Footer/Footer'
 
+import Projects from './Components/Projects/Projects'
+
 import Cloud from './Assets/Images/cloud.png'
 import Particles from 'react-particles-js';
 
@@ -48,7 +50,7 @@ function App() {
             </Route>
 
             <Route exact path='/projects'>
-              <h1>projects</h1>
+              <Projects />
             </Route>
 
 
@@ -61,7 +63,7 @@ function App() {
 
 
           </Switch>
-          <div style={{ opacity: '1', bottom: '24vw', position: 'absolute', left: '', width: '100vw', height: '100vh' ,background:''}}>
+          <div style={{ opacity: '1', bottom: '24vw', position: 'absolute', left: '', width: '100vw', height: '100vh', background: ''}}>
             <Particles params={{
               "particles": {
                 "number": {

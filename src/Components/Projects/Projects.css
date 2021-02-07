@@ -1,0 +1,166 @@
+#project1:hover {
+    /* transform: scale(1.2); */
+    opacity: 1;
+    filter: grayscale(10%);
+}
+
+.projectImageContent:hover .overlay {
+    opacity: 1;
+    background: rgba(0, 0, 0, .8);
+    bottom: 0;
+    height: 100%;
+    filter: grayscale(0%);
+}
+
+.jumbo3:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+.jumbo3:hover #signature {
+    opacity: .4;
+}
+
+.jumbo3 {
+    /* display: inline-block; */
+    max-height: 15%;
+    background-color: lightgray;
+    /* size: 10px; */
+    padding: 5% 7%;
+    margin-top: auto;
+    border: 10px;
+    transition: .6s ease;
+    opacity: 0.7;
+}
+
+.myProjectsName {
+    text-align: center;
+    font-size: 2.3vw;
+    padding-bottom: 50px;
+}
+
+.projectsWrap {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.overlay {
+    position: absolute;
+    transition: .2s ease;
+    background-color: gray;
+    border-radius: 10px;
+    height: 0%;
+    width: 101%;
+    border: 10px solid transparent;
+    opacity: 0;
+    overflow-y: scroll;
+    /* z-index: 21; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    max-height: min-content;
+}
+
+.projectImage {
+    width: 100%;
+    border-radius: 10px;
+    opacity: .8;
+    /* z-index: 1; */
+    height: auto;
+    /* transition: 3s ease; */
+    filter: drop-shadow(3px 3px 10px black);
+}
+
+.projectTitle {
+    font-size: 1rem;
+    margin-top: 20%;
+    color: white;
+}
+
+.projectAbout {
+    font-size: 1rem;
+    margin-top: 10%;
+    color: white;
+}
+
+.jumbo3:hover .projectImageContent {
+    opacity: 1;
+}
+
+.projectImageContent {
+    opacity: 1;
+    transition: .6s ease-in-out;
+}
+
+.projectWrap {
+    width: 70%;
+    text-align: center;
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    /* transition: .2s ease; */
+    opacity: .4;
+}
+
+.signatureWrap {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    /* position: relative; */
+    /* align-items: center; */
+    margin-top: 3rem;
+    /* width: 66px; */
+}
+
+#signature {
+    /* position: absolute; */
+    width: 13%;
+    opacity: .1;
+    display: flex;
+    transition: 1.5s ease-in-out;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: '10px';
+    position: absolute;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: '50px';
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 20px;
+    height: 5px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    color: 'pink';
+}
+
+::-webkit-scrollbar-track-piece {
+    background: transparent;
+}
+
+.figure-caption {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}

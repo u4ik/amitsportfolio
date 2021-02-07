@@ -154,3 +154,13 @@ $rain: 150;
 //     right: 0;
 //     left: 0;
 // }
+.figure-img {
+    border-radius: 10px;
+}
+
+.figure {
+    margin: 2%;
+    z-index: 100;
+    filter: drop-shadow(3px 3px 10px black);
+    cursor: pointer;
+}
