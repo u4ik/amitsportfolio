@@ -14,6 +14,8 @@ import Footer from './Components/Footer/Footer'
 import { MDBAnimation } from 'mdbreact'
 import Projects from './Components/Projects/Projects'
 
+import { useSpring, animated } from 'react-spring'
+
 import About from './Components/About/About'
 
 
@@ -28,6 +30,7 @@ import Particles from 'react-particles-js';
 
 
 function App() {
+
   return (
 
     <div style={{ maxHeight: '100%', background: `url(${BackgroundLandscape})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed', zIndex: -2 }} className="App">
@@ -51,7 +54,9 @@ function App() {
             </Route>
 
             <Route exact path='/about'>
-              <About />
+           
+                <About />
+       
             </Route>
 
             <Route exact path='/projects'>

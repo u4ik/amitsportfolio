@@ -31,8 +31,8 @@ const Title = () => {
             opacity: 1,
 
         },
-        config: { duration: 1000 },
-        delay: 800
+        config: { duration: 800 },
+        // delay: 800
     })
     const fade1 = useSpring({
         from: {
@@ -44,8 +44,8 @@ const Title = () => {
             opacity: 1,
 
         },
-        config: { duration: 1000 },
-        delay: 1200
+        config: { duration: 800 },
+        delay: 200
     })
     const fade3 = useSpring({
         from: {
@@ -56,8 +56,8 @@ const Title = () => {
             opacity: 1,
 
         },
-        config: { duration: 1000 },
-        delay: 1400
+        config: { duration: 800 },
+        delay: 400
     })
     return (
         <div style={{ }} className='titleWrap'>
