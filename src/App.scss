@@ -53,7 +53,7 @@ body {
 
 $rain: 150;
 @for $i from 1 through $rain {
-    $top: (random(50) + 50) * 1%;
+    $top: (random(35) + 35) * 1%;
     $left: random(100) * 1%;
     $opacity: (random(30) + 30) * 0.01;
     $delay: random(20) - 1s;
@@ -74,7 +74,7 @@ $rain: 150;
         }
         100% {
             opacity: 0;
-            top: $top + 40%;
+            top: $top + 20%;
         }
     }
 }
