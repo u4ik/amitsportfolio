@@ -4,7 +4,7 @@ import { MDBView } from 'mdbreact'
 import Signature from '../../Assets/Images/signature.png'
 import ResumeImg from '../../Assets/Images/resumeimg.png'
 
-import ResumeFile from "../../Assets/Amit Mangat's Resume 2021.docx"
+import ResumeFile from "../../Assets/Amit Mangat's Resume 2021.pdf"
 
 
 import UpArrow from '../../Assets/Images/Icons/uparrow.svg'
