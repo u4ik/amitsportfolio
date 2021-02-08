@@ -1,4 +1,5 @@
 import React from 'react';
+import Signature from '../../Assets/Images/signature.png'
 
 const About = (props) => {
 
@@ -12,8 +13,12 @@ const About = (props) => {
 
                     <p>After 6 months of intensive learning, I graduated from the bootcamp, quickly understanding the fundamentals during the early stages, then later showcasing production ready work. Due to my performance during the course, I was offered to become a learning assistant for Javascript and Web development from Eleven Fifty Academy. I now assist in teaching new students, helping them understand the concepts, along with debugging, and guiding them towards success throughout the course.</p>
 
-                    <p>Since I've taken on this role, I still continue to learn, polishing off my skills, and demonstrating what I've learned. Having a keen eye for detail, I've always favored graphical work, although I am fully experienced with both front and backend frameworks to develop full stack applications. </p>
+                    <p>Since I've taken on this role, I still continue to learn, polishing off my skills, and demonstrate what I've learned. Having a keen eye for detail, I've always favored graphical work, although I am fully experienced with both front and backend frameworks to develop full stack applications. </p>
 
+                    <p>I've excelled well with my journey so far and I look forward to any future opportunities that come my way.</p>
+                    <div style={{ filter: 'drop-shadow(3px 3px 3px black)' }}>
+                        <img alt='signature' style={{ filter: 'invert(1)', opacity: '.7',width:'20%' }} src={Signature} />
+                    </div>
                 </div>
 
             </div>
