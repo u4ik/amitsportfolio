@@ -90,6 +90,10 @@
         animation: Gradient 15s ease-in-out infinite;
     }
     
+    .stars {
+        animation: Opacity 15s ease-in-out infinite;
+    }
+    
     // @-webkit-keyframes Gradient {
     //     0% {
     //         background-position: 0% -9000px;
@@ -121,6 +125,18 @@
         }
         100% {
             background-position: 0% 20%
+        }
+    }
+    
+    @keyframes Opacity {
+        10% {
+            opacity: .3
+        }
+        50% {
+            opacity: .5
+        }
+        100% {
+            opacity: 1
         }
     }
     

@@ -11,6 +11,7 @@
         "mdbreact": "git+https://oauth2:o_ze2xcK22szgJw7gcjm@git.mdbootstrap.com/mdb/react/re-pro.git",
         "node-sass": "^4.14.1",
         "react": "^16.14.0",
+        "react-awesome-lightbox": "^1.7.3",
         "react-bootstrap": "^1.4.3",
         "react-dom": "^16.14.0",
         "react-particles-js": "^3.4.1",

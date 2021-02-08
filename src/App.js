@@ -13,6 +13,7 @@ import Title from './Components/Title/Title'
 import Footer from './Components/Footer/Footer'
 import { MDBAnimation } from 'mdbreact'
 import Projects from './Components/Projects/Projects'
+import Resume from './Components/Resume/Resume'
 
 import { useSpring, animated } from 'react-spring'
 
@@ -23,7 +24,7 @@ import Contact from './Components/Contact/Contact'
 
 import Cloud from './Assets/Images/cloud.png'
 import Particles from 'react-particles-js';
-
+import Lightbox from "react-awesome-lightbox";
 
 
 
@@ -34,7 +35,7 @@ function App() {
   return (
 
     <div style={{ maxHeight: '100%', background: `url(${BackgroundLandscape})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed', zIndex: -2 }} className="App">
-      <div className='test' style={{ backgroundSize: '', minHeight: '100vh', overflow: '',backdropFilter:'blur(5px)' }}>
+      <div className='test' style={{ backgroundSize: '', minHeight: '100vh', overflow: '', backdropFilter: 'blur(5px)' }}>
 
 
         <i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i>
@@ -49,20 +50,24 @@ function App() {
           <Switch>
 
             <Route exact path='/' >
-
+          
               <Title />
             </Route>
 
             <Route exact path='/about'>
-           
-                <About />
-       
+
+              <About />
+
             </Route>
 
             <Route exact path='/projects'>
               {/* <MDBAnimation type='fadeInUp' duration='1s' style={{zIndex:-10, pointerEvent: 'none !important' }}> */}
               <Projects />
               {/* </MDBAnimation > */}
+            </Route>
+
+            <Route exact path='/resume'>
+              <Resume />
             </Route>
 
 
@@ -75,7 +80,7 @@ function App() {
 
 
           </Switch>
-          <div style={{ opacity: '1', bottom: '26vw', position: 'fixed', left: '', width: '100vw', height: '100vh', background: '', pointerEvents: '' }}>
+          <div className='stars' style={{ opacity: '1', bottom: '26vw', position: 'fixed', left: '', width: '100vw', height: '100vh', background: '', pointerEvents: '' }}>
             <Particles params={{
               "particles": {
                 "number": {
@@ -129,7 +134,7 @@ function App() {
 
       </div>
 
-    </div>
+    </div >
 
   );
 }

@@ -1,0 +1,56 @@
+.bouncey {
+    animation: 2s ease-in-out infinite bouncey;
+    margin-top: 2%;
+    /* filter: scale(.7); */
+}
+
+@-moz-keyframes bouncey {
+    0%,
+    50%,
+    100% {
+        -moz-transform: translateY(0);
+        transform: translateY(0);
+    }
+    25% {
+        -moz-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    75% {
+        -moz-transform: translateY(-13px);
+        transform: translateY(-13px);
+    }
+}
+
+@-webkit-keyframes bouncey {
+    0%,
+    50%,
+    100% {
+        -moz-transform: translateY(0);
+        transform: translateY(0);
+    }
+    25% {
+        -moz-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    75% {
+        -moz-transform: translateY(-13px);
+        transform: translateY(-13px);
+    }
+}
+
+@keyframes bouncey {
+    0%,
+    50%,
+    100% {
+        -moz-transform: translateY(0);
+        transform: translateY(0);
+    }
+    25% {
+        -moz-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    75% {
+        -moz-transform: translateY(-13px);
+        transform: translateY(-13px);
+    }
+}

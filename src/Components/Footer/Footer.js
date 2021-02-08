@@ -1,13 +1,17 @@
 import React from 'react';
+import {useHistory} from 'react-router-dom'
 import {MDBIcon} from 'mdbreact'
 import GithubIcon from '../../Assets/Images/Icons/github.svg';
 import ResumeIcon from '../../Assets/Images/Icons/resume.svg';
 import LinkedInIcon from '../../Assets/Images/Icons/linkedin.svg';
 
+import './Footer.css'
 //Import React Spring
 import { useSpring, animated } from 'react-spring'
 
 const Footer = () => {
+
+    let history = useHistory();
     const fadeWrap = useSpring({
         from: {
             opacity: 0,
@@ -94,10 +98,12 @@ const Footer = () => {
                     </animated.div>
 
                     <animated.div style={fade2} class="icon2" >
-                        <a target="_blank" href='assets\resume3-27-2020.pdf'>
-                            <img src={ResumeIcon} style={iconStyle} class="iconImage" alt="" draggable='false'></img>
+                        {/* <a target="" href='' > */}
+                            <img src={ResumeIcon} style={iconStyle} class="iconImage" alt="" draggable='false' onClick={() => {
+                            history.push('/resume')
+                        }}></img>
 
-                        </a>
+                        {/* </a> */}
                     </animated.div>
 
                     <animated.div style={fade3} class="icon3" >
