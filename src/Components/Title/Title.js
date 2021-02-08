@@ -60,7 +60,7 @@ const Title = () => {
         delay: 1400
     })
     return (
-        <div style={{ color: 'white', userSelect: 'none', marginBottom: '1%' }} className='titleWrap'>
+        <div style={{ }} className='titleWrap'>
             {/* <MDBAnimation type="shake" infinite={true} duration={'15s'} style={{}}>
                 <img style={{ pointerEvents: 'none', zIndex: -1, left: '15vw', right: '1vw', bottom: '', top: '-72vw', position: 'absolute', width: '1500px', bottom: '2vw' }} src={Cloud}></img>
             </MDBAnimation> */}

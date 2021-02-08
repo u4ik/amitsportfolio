@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {MDBIcon} from 'mdbreact'
 import GithubIcon from '../../Assets/Images/Icons/github.svg';
 import ResumeIcon from '../../Assets/Images/Icons/resume.svg';
 import LinkedInIcon from '../../Assets/Images/Icons/linkedin.svg';
@@ -110,7 +110,9 @@ const Footer = () => {
                 <>
 
                     <animated.div style={fade3} class="icon3" >
+               
                         <a style={{textDecoration:'none'}} href='mailto:insighteuphoric@gmail.com'>
+                        <MDBIcon icon="envelope" />
                             insighteuphoric@gmail.com
                         </a>
                     </animated.div>

@@ -1,6 +1,9 @@
 .titleWrap {
-    color: 'white' !important;
-    padding-top: 8vh;
+    color: white !important;
+    padding-top: 6vh;
+    user-select: none;
+    margin-bottom: 1%;
+    min-height: 500px;
 }
 
 .titleName {
