@@ -75,7 +75,7 @@ function App() {
 
 
           </Switch>
-          <div style={{ opacity: '1', bottom: '24vw', position: 'fixed', left: '', width: '100vw', height: '100vh', background: '', pointerEvents: '' }}>
+          <div style={{ opacity: '1', bottom: '26vw', position: 'fixed', left: '', width: '100vw', height: '100vh', background: '', pointerEvents: '' }}>
             <Particles params={{
               "particles": {
                 "number": {
