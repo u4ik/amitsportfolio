@@ -101,7 +101,7 @@ const Title = () => {
                                 },
                             ]}
                         />
-                        <h5 style={{ opacity: '.7', marginTop: '1%', marginBottom: '-1%' }} className='titleDesc'>"Creativity is intelligence having fun"</h5>
+                        <h5 style={{ opacity: '.7', marginTop: '1%', marginBottom: '-1%' ,fontSize:'.8em'}} className='titleDesc'>"Creativity is intelligence having fun."</h5>
                         <div style={{ marginBottom: '-1%' }}>
 
                             <img className='icons' style={{ width: '10%', opacity: '.5', marginBottom: '', filter: 'drop-shadow(5px 5px 5px black)' }} draggable='false' src={ScriptIcons} ></img>
