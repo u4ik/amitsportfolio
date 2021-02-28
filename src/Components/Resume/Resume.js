@@ -12,6 +12,8 @@ import { useSpring, animated } from 'react-spring'
 import Lightbox from "react-awesome-lightbox";
 import './Resume.css'
 
+
+
 const Resume = (props) => {
 
     const [img, setImg] = useState()

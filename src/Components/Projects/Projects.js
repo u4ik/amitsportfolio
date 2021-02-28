@@ -7,6 +7,7 @@ import JotterThumbnail from '../../Assets/Images/projectthumbnails/jotterthumbna
 import NetFlixThumbnail from '../../Assets/Images/projectthumbnails/netflixthumbnail.png'
 import FishNETThumbnail from '../../Assets/Images/projectthumbnails/fishnetthumbnail.png'
 import PremierThumbnail from '../../Assets/Images/projectthumbnails/premierthumbnail.png'
+import LotteryThumbnail from '../../Assets/Images/projectthumbnails/lotterythumbnail.png'
 
 import { useSpring, animated } from 'react-spring'
 const Projects = () => {
@@ -28,8 +29,8 @@ const Projects = () => {
     return (
         <>
 
-                <h1 style={{ textShadow: '2px 2px 1px black', marginTop: '2%' }}>Projects</h1>
-                <p>Newest to oldest.</p>
+            <h1 style={{ textShadow: '2px 2px 1px black', marginTop: '2%' }}>Projects</h1>
+            <p>Newest to oldest.</p>
             <animated.div style={fade}>
                 {/* <MDBAnimation type='fadeInUp' duration='1s' style={{ pointerEvents: 'none !important' }}> */}
                 <div style={{ display: 'flex', flexWrap: 'wrap', flexDirection: 'row', justifyContent: 'center', marginBottom: '2%', marginTop: '2%' }}>
@@ -56,10 +57,36 @@ const Projects = () => {
 
                         <h3 className='figure-caption' style={{ color: 'white', fontSize: '1.2em', opacity: '.8', textShadow: '1px 1px 1px black' }}>FishNET</h3>
                         <figcaption className="figure-caption text-center">
-                            PERN full stack application, created and managed by me.
-                    </figcaption>
+                            PERN full stack application.
+                        </figcaption>
 
                     </div>
+
+                    {/* Lottery Project */}
+                    <div >
+                        <div className="projectWrap" style={{ zIndex: 5, opacity: 1 }}>
+
+                            <div className="projectImageContent">
+
+                                <a href="https://u4ik.github.io/lottery/">
+                                    <img className="projectImage" src={LotteryThumbnail} id="" alt="" />
+                                    <div className="overlay">
+                                        <h1 className='projectTitle'>MegaMillions</h1>
+                                        <p className="projectAbout">Number generator and winning history checker for the MegaMillions Lottery. </p>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <h3 className='figure-caption' style={{ color: 'white', fontSize: '1.2em', opacity: '.8', textShadow: '1px 1px 1px black' }}>MegaMillions</h3>
+                        <figcaption className="figure-caption text-center">
+                            MegaMillions Lottery.
+                        </figcaption>
+
+                    </div>
+
 
                     {/* Premier */}
                     <div>
