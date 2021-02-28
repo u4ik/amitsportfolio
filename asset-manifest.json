@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.9289db79.chunk.css",
-    "main.js": "/static/js/main.9b9e3825.chunk.js",
-    "main.js.map": "/static/js/main.9b9e3825.chunk.js.map",
+    "main.css": "/static/css/main.121cff47.chunk.css",
+    "main.js": "/static/js/main.25db8939.chunk.js",
+    "main.js.map": "/static/js/main.25db8939.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4e90cae3.js",
     "runtime-main.js.map": "/static/js/runtime-main.4e90cae3.js.map",
     "static/css/2.c57208f8.chunk.css": "/static/css/2.c57208f8.chunk.css",
-    "static/js/2.2a00ba3f.chunk.js": "/static/js/2.2a00ba3f.chunk.js",
-    "static/js/2.2a00ba3f.chunk.js.map": "/static/js/2.2a00ba3f.chunk.js.map",
+    "static/js/2.e5758dd1.chunk.js": "/static/js/2.e5758dd1.chunk.js",
+    "static/js/2.e5758dd1.chunk.js.map": "/static/js/2.e5758dd1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8ba496af0f863d45e97f20684b2a444e.js": "/precache-manifest.8ba496af0f863d45e97f20684b2a444e.js",
+    "precache-manifest.08ba3079eb3d350b9bde825a5f3e0bf2.js": "/precache-manifest.08ba3079eb3d350b9bde825a5f3e0bf2.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.c57208f8.chunk.css.map": "/static/css/2.c57208f8.chunk.css.map",
-    "static/css/main.9289db79.chunk.css.map": "/static/css/main.9289db79.chunk.css.map",
-    "static/js/2.2a00ba3f.chunk.js.LICENSE.txt": "/static/js/2.2a00ba3f.chunk.js.LICENSE.txt",
+    "static/css/main.121cff47.chunk.css.map": "/static/css/main.121cff47.chunk.css.map",
+    "static/js/2.e5758dd1.chunk.js.LICENSE.txt": "/static/js/2.e5758dd1.chunk.js.LICENSE.txt",
     "static/media/Amit Mangat's Resume 2021.pdf": "/static/media/Amit Mangat's Resume 2021.628601b7.pdf",
     "static/media/index.css": "/static/media/Pinyon.ee5a858d.ttf",
     "static/media/ScriptIcons.png": "/static/media/ScriptIcons.cbb20812.png",
@@ -24,9 +24,10 @@
     "static/media/fishnetthumbnail.png": "/static/media/fishnetthumbnail.7bb8bf0b.png",
     "static/media/flower1.svg": "/static/media/flower1.2d7ec057.svg",
     "static/media/github.svg": "/static/media/github.76d344f0.svg",
-    "static/media/jotterthumbnail.png": "/static/media/jotterthumbnail.8d2590c6.png",
+    "static/media/jotterthumbnail.png": "/static/media/jotterthumbnail.13ad04fc.png",
     "static/media/landscapegrey.png": "/static/media/landscapegrey.0c73ac2c.png",
     "static/media/linkedin.svg": "/static/media/linkedin.9e36c8fd.svg",
+    "static/media/lotterythumbnail.png": "/static/media/lotterythumbnail.a9d54cd3.png",
     "static/media/netflixthumbnail.png": "/static/media/netflixthumbnail.191e2e2b.png",
     "static/media/nodejs.svg": "/static/media/nodejs.ccb43d34.svg",
     "static/media/pokemonthumbnail.png": "/static/media/pokemonthumbnail.8fc09c27.png",
@@ -41,8 +42,8 @@
   "entrypoints": [
     "static/js/runtime-main.4e90cae3.js",
     "static/css/2.c57208f8.chunk.css",
-    "static/js/2.2a00ba3f.chunk.js",
-    "static/css/main.9289db79.chunk.css",
-    "static/js/main.9b9e3825.chunk.js"
+    "static/js/2.e5758dd1.chunk.js",
+    "static/css/main.121cff47.chunk.css",
+    "static/js/main.25db8939.chunk.js"
   ]
 }
