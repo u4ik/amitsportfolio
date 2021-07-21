@@ -1,8 +1,16 @@
 import React from 'react'
+import Scramble from 'react-scramble'
+import { MDBAnimation, MDBIcon, MDBInput } from "mdbreact";
+
+//Import Title CSS
+import './Title.css'
+//Import React Spring
+import { useSpring, animated } from 'react-spring'
 
 import Flower from '../../Assets/Images/flower1.svg'
 import Cloud from '../../Assets/Images/cloud.png'
 
+import { Images } from '../../Assets/Images/index'
 
 import ReactIcon from '../../Assets/Images/react.png'
 import Nodejs from '../../Assets/Images/nodejs.svg'
@@ -10,17 +18,9 @@ import ScriptIcons from '../../Assets/Images/ScriptIcons.png'
 import PostgresIcon from '../../Assets/Images/postgres.png';
 import SequelizeIcon from '../../Assets/Images/sequelize.png'
 import BootstrapIcon from '../../Assets/Images/bootstrap.png'
+import PythonIcon from '../../Assets/Images/python.svg'
 
-
-import { MDBAnimation, MDBIcon, MDBInput } from "mdbreact";
-
-import Scramble from 'react-scramble'
-
-//Import Title CSS
-import './Title.css'
-//Import React Spring
-import { useSpring, animated } from 'react-spring'
-
+// const { ReactIcon, ScriptIcons, Nodejs, BootstrapIcon, SequelizeIcon,PostgresIcon } = Images;
 const Title = () => {
     const fade = useSpring({
         from: {
@@ -60,16 +60,12 @@ const Title = () => {
         delay: 400
     })
     return (
-        <div style={{ }} className='titleWrap'>
+        <div style={{}} className='titleWrap'>
             {/* <MDBAnimation type="shake" infinite={true} duration={'15s'} style={{}}>
                 <img style={{ pointerEvents: 'none', zIndex: -1, left: '15vw', right: '1vw', bottom: '', top: '-72vw', position: 'absolute', width: '1500px', bottom: '2vw' }} src={Cloud}></img>
             </MDBAnimation> */}
 
             <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-
-
-
-
 
                 <animated.div style={fade3} className='titleNameWrap'>
                     <img style={{ width: '15%', opacity: '.2', marginBottom: '', filter: 'drop-shadow(5px 5px 5px black)' }} draggable='false' src={Flower} className='titleImg'></img>
@@ -101,10 +97,14 @@ const Title = () => {
                                 },
                             ]}
                         />
-                        <h5 style={{ opacity: '.7', marginTop: '1%', marginBottom: '-1%' ,fontSize:'.8em'}} className='titleDesc'>"Creativity is intelligence having fun."</h5>
+                        <h5 style={{ opacity: '.7', marginTop: '1%', marginBottom: '-1%', fontSize: '.8em' }} className='titleDesc'>"Creativity is intelligence having fun."</h5>
                         <div style={{ marginBottom: '-1%' }}>
 
                             <img className='icons' style={{ width: '10%', opacity: '.5', marginBottom: '', filter: 'drop-shadow(5px 5px 5px black)' }} draggable='false' src={ScriptIcons} ></img>
+                 
+
+                                <img className='icons' style={{ marginTop: '0%', width: '3.5%', opacity: '.5', marginBottom: '', filter: 'drop-shadow(5px 5px 5px black)' }} draggable='false' src={PythonIcon} ></img>
+                         
                         </div>
                         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
 
@@ -123,7 +123,7 @@ const Title = () => {
                                 <img className='icons' style={{ marginTop: '10%', width: '90%', opacity: '.5', marginBottom: '', filter: 'drop-shadow(5px 5px 5px black)' }} draggable='false' src={BootstrapIcon}></img>
                             </div>
 
-                            <div style={{ width: '5%', margin: '.2%' ,marginLeft:'-1%',marginRight:'-.6%'}}>
+                            <div style={{ width: '5%', margin: '.2%', marginLeft: '-1%', marginRight: '-.6%' }}>
                                 <img className='icons' style={{ width: '70%', marginTop: '3%', opacity: '.5', marginBottom: '', filter: 'drop-shadow(5px 5px 5px black)' }} draggable='false' src={ReactIcon}></img>
                             </div>
 
@@ -139,6 +139,8 @@ const Title = () => {
 
                                 <img className='icons' style={{ marginTop: '2%', width: '90%', opacity: '.5', marginBottom: '', filter: 'drop-shadow(5px 5px 5px black)' }} draggable='false' src={PostgresIcon} ></img>
                             </div>
+
+
 
 
 

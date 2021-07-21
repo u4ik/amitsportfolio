@@ -1,42 +1,31 @@
 import React from 'react';
 import { useState, useEffect } from 'react'
 import { MDBView } from 'mdbreact'
-import Signature from '../../Assets/Images/signature.png'
-import ResumeImg from '../../Assets/Images/resumeimg.png'
-
-import ResumeFile from "../../Assets/Amit Mangat's Resume 2021.pdf"
-
-
-import UpArrow from '../../Assets/Images/Icons/uparrow.svg'
-import { useSpring, animated } from 'react-spring'
 import Lightbox from "react-awesome-lightbox";
+import { useSpring, animated } from 'react-spring'
+
+import ResumeFile from "../../Assets/Resume2021.pdf"
+import ResumeImg from '../../Assets/Images/resumeimg.png'
+import Signature from '../../Assets/Images/signature.png'
+import UpArrow from '../../Assets/Images/Icons/uparrow.svg'
+
 import './Resume.css'
 
-
-
 const Resume = (props) => {
-
     const [img, setImg] = useState()
-
-
 
     const fade = useSpring({
         from: {
             opacity: 0,
-
         },
         to: {
             opacity: 1,
-
         },
         config: { duration: 800 },
         // delay: 800
     })
 
     return (
-
-
-
         <>
 
             <Lightbox image={img} title="Amit Mangat's Resume" doubleClickZoom={2} onClose={() => {
@@ -54,7 +43,7 @@ const Resume = (props) => {
 
                             <figcaption className='upArrowText' style={{ marginTop: '1%', opacity: '.8' }}>Click to view</figcaption>
                         </div>
-                        <button className='authButtons' style={{ width: '20%', marginLeft: 'auto', marginRight: 'auto' }} onClick={()=>{
+                        <button className='authButtons' style={{ width: '20%',minWidth:'100px', marginLeft: 'auto', marginRight: 'auto' }} onClick={()=>{
                             window.open(ResumeFile)
                         }}>Download</button>
                     </div>
