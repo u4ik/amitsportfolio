@@ -8,4 +8,4 @@ let Images = {
     PythonIcon: '../../Assets/Images/python.svg'
 };
 
-export { Images };
+export default  Images ;

@@ -12,10 +12,13 @@ const Sitebar = () => {
     const fadeWrap = useSpring({
         from: {
             opacity: 0,
+            display:'flex',
+            flexDirection:'column'
             // transform: 'scale(2)'
         },
         to: {
             opacity: 1,
+      
             // transform: 'scale(1)'
         },
         config: {duration: 1000}
@@ -74,8 +77,8 @@ const Sitebar = () => {
 
             <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', width: '100vw' }}>
 
-                <div style={{ zIndex:10,display: 'flex', flexDirection: 'column' }}>
-                    <animated.div style={fadeWrap}>
+                <div style={{ zIndex:10,display: 'flex', flexDirection: 'column' ,alignItems:'center'}}>
+                    <animated.div id='navButton' style={fadeWrap}>
                     <Navbar.Brand style={{ marginBottom: '5%' }} href="/home"></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
