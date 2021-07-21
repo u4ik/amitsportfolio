@@ -13,13 +13,15 @@ const Technologies = () => {
 
     const icon1 = {
         minWidth: '100px',
-        width: '10%',
+        maxWidth: '200px',
+        width: '100%',
         opacity: '.5',
         marginBottom: '',
         filter: 'drop-shadow(5px 5px 5px black)'
     }
     const icon2 = {
-        minWidth: '35px',
+        minWidth: '60px',
+        maxWidth: '200px',
         marginTop: '0%',
         width: '3.5%',
         opacity: '.5',
@@ -38,10 +40,10 @@ const Technologies = () => {
     const row2icons = {
         width: '100%',
         minWidth: '40px',
-        maxWidth: '100px',
-        maxHeight: '90px',
-        minHeight: '90px',
-        margin:'2em',
+        maxWidth: '70px',
+        minHeight: '60px',
+        maxHeight: '60px',
+        margin:'1em',
         opacity: '.5',
         marginBottom: '.5em',
         filter: 'drop-shadow(5px 5px 5px black)'

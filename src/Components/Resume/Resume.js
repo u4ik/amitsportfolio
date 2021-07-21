@@ -36,7 +36,7 @@ const Resume = (props) => {
                 <div style={{ display: 'flex', flexWrap: 'wrap', flexDirection: 'row', justifyContent: 'center', marginBottom: '2%', marginTop: '2%', minHeight: '40vh' }}>
                     <div style={{ marginLeft: '35%', marginRight: '35%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
 
-                        <img alt='resume' src={ResumeImg} style={{ cursor: 'pointer', zIndex: 10, borderRadius: '10px', width: '70%', marginLeft: 'auto', marginRight: 'auto', filter: 'drop-shadow(3px 3px 5px black)' }}
+                        <img alt='resume' src={ResumeImg} style={{ cursor: 'pointer', zIndex: 10, borderRadius: '10px', width: '70%',minWidth:'300px', marginLeft: 'auto', marginRight: 'auto', filter: 'drop-shadow(3px 3px 5px black)' }}
                             onClick={() => { setImg(ResumeImg) }} />
                         <div className='bouncey'>
                             <img className='upArrow' style={{ width: '3%', marginLeft: 'auto', marginRight: 'auto', marginTop: '1%', filter: "invert(1)" }} src={UpArrow} alt='uparrow' />
